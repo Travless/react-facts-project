@@ -1,13 +1,17 @@
 import React from "react";
+import './Body.css';
 
 function Body(){
     return(
-        <div>
-            <h1>Reasons I'm excited to learn React</h1>
-            <ol>
-                <li>It's a popular library, which will help me have the skillset to work on tons of projects</li>
-                <li>I am more likely to get a job as a developer with knowledge of the React library</li>
-            </ol>
+        <div className="body-cont">
+            <h1>Fun facts about React</h1>
+            <ul>
+                <li>Was first released in 2013</li>
+                <li>Was originally created by Jordan Walke</li>
+                <li>Has well over 100k stars on GitHub</li>
+                <li>Is maintained by Facebook</li>
+                <li>Powers thousands of enterprise apps, including mobile apps</li>
+            </ul>
         </div>
     )
 }

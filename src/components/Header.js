@@ -8,11 +8,12 @@ function Header(){
         <div>
             <header>
                 <nav className="nav">
-                    <img src={logo} className='logo'/>
+                    <div className="logo-cont">
+                        <img src={logo} className='logo'/>
+                        <h2 className="nav-main-title">ReactFacts</h2>
+                    </div>
                     <ul className="nav-items">
-                        <li>Pricing</li>
-                        <li>About</li>
-                        <li>Contact</li>
+                        <p className="nav-second-title">React Course - Project 1</p>
                     </ul>
                 </nav>
             </header>
